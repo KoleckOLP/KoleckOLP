@@ -11,4 +11,4 @@ don't check out my webpage, link not in the bio<br>
 </p>
 
 [![KoleckOLP's github stats](https://github-readme-stats.vercel.app/api?username=KoleckOLP&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)<br>
-Please check out my friends @kangalioo and @Hubza they do way cooler stuff, more often!
+Please check out my friends <a href="https://github.com/kangalioo">@kangalioo</a> and <a href="https://github.com/Hubza">@Hubza</a> they do way cooler stuff, more often!
