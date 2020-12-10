@@ -1,7 +1,7 @@
 <h1>Hewwo ❤️, I'm KoleckOLP or Andrew.</h1>
 <p>
 I write bad code that even works sometimes!<br>
-Mostly working on yt-dl, should uppload old code soon™.<br>
+Mostly working on yt-dl, I love python 3 <3.<br>
 Rewriting old projects because I have no inspiration to make new ones.<br>
 My biggest passison is supporting as many sperating systems as I can,<br>
 with minimum effort(because I'm lazy), curently supporting:<br>
