@@ -1,0 +1,12 @@
+# This is Git's per-user configuration file.
+#[user]
+#	name = 
+#	email = 
+[alias]
+    gloga = log --oneline --graph --all
+    glog = log --oneline --graph
+    glo = log --oneline
+    staged = diff --cached
+    stagedf = diff --cached --stat
+    unstaged = diff
+    unstagedf = diff --stat
