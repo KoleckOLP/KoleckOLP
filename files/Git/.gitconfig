@@ -1,11 +1,11 @@
 # This is Git's per-user configuration file.
-#[user]
-#	name = 
-#	email = 
+[user]
+    name = koleq(DEVICE)
+	email = 
 [alias]
-    gloga = log --oneline --graph --all
-    glog = log --oneline --graph
-    glo = log --oneline
+    loga = log --oneline --graph --all
+    log = log --oneline --graph
+    lo = log --oneline
     staged = diff --cached
     stagedf = diff --cached --stat
     unstaged = diff
