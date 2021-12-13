@@ -1,7 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
     name = koleq(DEVICE)
-	email = 
+    email = 
 [alias]
     loga = log --oneline --graph --all
     log = log --oneline --graph
