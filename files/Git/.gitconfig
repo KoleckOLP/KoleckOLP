@@ -1,34 +1,39 @@
 # This is Git's per-user configuration file.
 [core]
-    editor =  # <- editor location here (usually code.exe --wait)
+	editor =  # <- editor location here (usually code.exe --wait)
 [user]
-    name = koleq(DEVICE)
-    email =  # <- for some reason I don't want my email here even tho it public
+	name = koleq(DEVICE)
+	email =  # <- for some reason I don't want my email here even tho it public
 [pull]
 	ff = only  # If you can't FF just merge
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
 [alias]
-    # actually use
-    staged = diff --cached
+# actually use
+	staged = diff --cached
 	stagedf = diff --stat --cached
-    unstaged = diff
-    unstagedf = diff --stat
-    logo = log --oneline
-    logog = log --oneline --graph
-    logoga = log --oneline --graph --all
-    pullall = pull --recurse-submodules
-    
-    # don't use
-    track = add 
-    untrack = rm --cached 
-    unstage = reset HEAD -- 
-    reject = restore --source=HEAD --staged --worktree -- 
-    discard = restore -- 
-    peek = switch --detach 
-    detach = switch --detach HEAD^0 
-    back = switch "-" 
-    unpulled = range-diff @...@{u} 
-    unpushed = range-diff @{push}...@ 
-    unmerged = branch --no-merged 
-    trunklog = log --oneline --graph --first-parent
-    branchlog = !git log --oneline --graph $1^-
+	unstaged = diff
+	unstagedf = diff --stat
+	logo = log --oneline
+	logog = log --oneline --graph
+	logoga = log --oneline --graph --all
+	pullall = pull --recurse-submodules
+
+# don't use
+	track = add 
+	untrack = rm --cached 
+	unstage = reset HEAD -- 
+	reject = restore --source=HEAD --staged --worktree -- 
+	discard = restore -- 
+	peek = switch --detach 
+	detach = switch --detach HEAD^0 
+	back = switch "-" 
+	unpulled = range-diff @...@{u} 
+	unpushed = range-diff @{push}...@ 
+	unmerged = branch --no-merged 
+	trunklog = log --oneline --graph --first-parent
+	branchlog = !git log --oneline --graph $1^-
     
